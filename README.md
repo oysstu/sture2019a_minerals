@@ -1,6 +1,6 @@
 ### Supplementary code for Sture et Al. 2019 "Identification of Hyperspectral Signatures for Underwater Massive Sulphide Exploration"
 
-The repository contains the following python scripts. 
+This github repository contains the following python scripts (https://github.com/oysstu/sture2019a_minerals). 
 Only python 3.6 or newer is supported. Python must have the following libraries installed.
 
 - h5py (tested: 2.9.0)
@@ -27,13 +27,12 @@ Downloads a zip archive containing UHI data and pre-computed calibration data.
 The archive is extracted in the project folder.
 
 #### viewer.py
-A simple viewer in matplotlib for the UHI-data.
+A simple viewer in matplotlib for the UHI-data with a slider to change the displayed band.
 
 #### refl_curves.py
 Create the reflectance plots in figure 6 and 7 in the paper.
 
 By default, this is calculated based on calibration data contained in the sample-files themselves. Optionally, a path to a Gaussian process regression model can be specified (stored as .h5 and .pkl).
-
 
 #### train_model.py
 Using calibration data from an inclined reference plate, computes a Gaussian process regression model of the measured irradiance over the plate as a function of altitude/height and field of view (viewing angle).
