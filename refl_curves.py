@@ -6,7 +6,7 @@ import imageio
 import numpy as np
 import matplotlib.pyplot as plt
 
-from uhi import UHIData
+from utils.uhi import UHIData
 
 
 def fig_reflectance(sample_dir, mask_dir, model_path=None, median_centered=True):

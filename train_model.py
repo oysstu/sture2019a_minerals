@@ -6,8 +6,8 @@ import os
 import numpy as np
 import gpflow
 
-from uhi import UHIData
-from gp import UHIRegression, reset_gpflow_graph
+from utils.uhi import UHIData
+from utils.gp import UHIRegression, reset_gpflow_graph
 
 
 def train(model_dir):
@@ -34,8 +34,6 @@ def train(model_dir):
 
     with np.load(os.path.join(model_dir, 'tiltplate_var.npz')) as f:
         tp_var = f['tp_var']  # Variance recorded whilst stationary over plate (top)
-
-    print(tp_var.shape)
 
     # Regressor (input locations)
     xx, yy = np.meshgrid(uhi.alt, uhi.fov, indexing='ij')

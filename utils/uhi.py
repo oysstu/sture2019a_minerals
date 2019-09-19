@@ -104,7 +104,7 @@ class UHIData:
             # Read gaussian process model
             # Note: requires tensorflow and gpflow
             try:
-                from gp import UHIRegression, reset_gpflow_graph
+                from utils.gp import UHIRegression, reset_gpflow_graph
 
                 reset_gpflow_graph()  # Necessary to run in loop
                 tp_gp = UHIRegression()

@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 import matplotlib.gridspec as gridspec
 from matplotlib.widgets import Slider, Button
 
-from uhi import UHIData
+from utils.uhi import UHIData
 
 
 class UHIDisplay:

@@ -16,6 +16,12 @@ Optional interaction with Gaussian process models requires the following additio
 - scikit-learn (tested: 0.21.3)
 
 
+### Data
+The default paths of the scripts in this repository expects a folder called *data* with the following subdirectories; *masks*, *model* and *samples*. These folders contain png-files denoting the masks in which reflectance curves are calculated from, a Gaussian process model / calibration data, and UHI data from the respective samples. The paths can be modified in the scripts if necessary. 
+
+### Scripts
+The following main scripts are available
+
 #### download.py
 Downloads a zip archive containing UHI data and pre-computed calibration data.
 The archive is extracted in the project folder.
@@ -31,4 +37,5 @@ or from a stored Gaussian process model.
 
 
 #### train_model.py
+
 
