@@ -32,10 +32,9 @@ A simple viewer in matplotlib for the UHI-data.
 #### refl_curves.py
 Create the reflectance plots in figure 6 and 7 in the paper.
 
-The reflectance is calculated either based on calibration data stored in the UHI-file,
-or from a stored Gaussian process model.
+By default, this is calculated based on calibration data contained in the sample-files themselves. Optionally, a path to a Gaussian process regression model can be specified (stored as .h5 and .pkl).
 
 
 #### train_model.py
-
+Using calibration data from an inclined reference plate, computes a Gaussian process regression model of the measured irradiance over the plate as a function of altitude/height and field of view (viewing angle).
 
