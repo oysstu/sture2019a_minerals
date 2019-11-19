@@ -29,6 +29,8 @@ The archive is extracted in the project folder.
 #### viewer.py
 A simple viewer in matplotlib for the UHI-data with a slider to change the displayed band.
 
+![Viewer Example](/images/viewer.png)
+
 #### refl_curves.py
 Create the reflectance plots in figure 6 and 7 in the paper.
 
