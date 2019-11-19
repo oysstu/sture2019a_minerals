@@ -1,4 +1,4 @@
-### Supplementary code for Sture et Al. 2019 "Identification of Hyperspectral Signatures for Underwater Massive Sulphide Exploration"
+### Supplementary code for Sture et Al. 2019 "Obtaining Hyperspectral Signatures for Seafloor Massive Sulphide Exploration"
 
 This github repository contains the following python scripts (https://github.com/oysstu/sture2019a_minerals). 
 Only python 3.6 or newer is supported. Python must have the following libraries installed.
